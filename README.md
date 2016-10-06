@@ -8,7 +8,7 @@ Simple docker image for working with [truffle](https://github.com/ConsenSys/truf
 Create a Dockerfile in your truffle project directory that copies your project inside the image on build. 
 
 ```dockerfile
-FROM izqui/docker-truffle
+FROM unpatent/docker-truffle
 COPY . app
 WORKDIR app
 
