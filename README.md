@@ -3,6 +3,8 @@ truffle-docker
 
 Simple docker image for working with [truffle](https://github.com/ConsenSys/truffle) usign on-memory-blockchain [testrpc](https://github.com/ethereumjs/testrpc) for running tests in a CI environment.
 
+Find it on [Docker Hub](https://hub.docker.com/r/unpatent/docker-truffle/)
+
 ## Usage
 
 Create a Dockerfile in your truffle project directory that copies your project inside the image on build. 
